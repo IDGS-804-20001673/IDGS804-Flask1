@@ -19,9 +19,15 @@ def numero(n):
     return "Numero: {}".format(n)
 
 #pasamos mas de un parametro en la url
-@app.route("/username/<int:id>/<string:username>")
+@app.route("/usernamçe/<int:id>/<string:username>")
 def usern(id,username):
     return "Id:{0} nombre: {1}".format(id,username) 
+
+
+#pasamos mas de un parametro en la url
+@app.route("/suma/<float:n1>/<float:n2>")
+def suma(n1,n2):
+    return "La suma es {}".format(n1+n2) 
 
 
 
