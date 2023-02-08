@@ -33,7 +33,7 @@ def suma():
             <input type="radio" name="ope" value="s" id="s"> <label for="s">Suma</label> <br>
             <input type="radio" name="ope" value="r" id="r"> <label for="r">Resta</label> <br>
             <input type="radio" name="ope" value="m" id="m"> <label for="m">Multiplicacion</label>
-            <input type="radio" name="ope" value="d" id="d"> <label for="m">Divicion</label> 
+            <input type="radio" name="ope" value="d" id="d"> <label for="d">Divicion</label> 
             </form>
 
     '''
