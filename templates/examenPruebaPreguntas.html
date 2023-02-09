@@ -1,0 +1,130 @@
+{% extends "layout.html"%}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <form class="form-horizontal" name="form1" action="/examenPruebaRespuesta" method="post">
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Cuanto es 2+2?</h5>
+
+                    <input type="radio" name="txt1" value="m" id="1">
+                    <label for="1">2</label>
+
+                    <input type="radio" name="txt1" value="m" id="2">
+                    <label for="2">3</label>
+
+                    <input type="radio" name="txt1" value="m" id="3">
+                    <label for="3">no se</label>
+
+                    <input type="radio" name="txt1" value="b" id="4">
+                    <label for="4">4</label>
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Cuanto es 5-5?</h5>
+
+                    <input type="radio" name="txt2" value="m" id="1">
+                    <label for="1">1</label>
+
+                    <input type="radio" name="txt2" value="b" id="4">
+                    <label for="4">0</label>
+
+                    <input type="radio" name="txt2" value="m" id="2">
+                    <label for="2">3</label>
+
+                    <input type="radio" name="txt2" value="m" id="3">
+                    <label for="3">10</label>
+
+                   
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Cuanto es 1 al cuadrado?</h5>
+
+                    <input type="radio" name="txt3" value="m" id="1">
+                    <label for="1">2</label>
+
+                    <input type="radio" name="txt3" value="b" id="4">
+                    <label for="4">1</label>
+
+                    <input type="radio" name="txt3" value="m" id="2">
+                    <label for="2">3</label>
+
+                    <input type="radio" name="txt3" value="m" id="3">
+                    <label for="3">2445</label>
+
+                    
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Que dia es año nuevo?</h5>
+
+                    <input type="radio" name="4" value="m" id="1">
+                    <label for="1">El ultimo</label>
+
+                    <input type="radio" name="4" value="b" id="2">
+                    <label for="2">El primero</label>
+
+                    <input type="radio" name="4" value="m" id="3">
+                    <label for="3">A veces</label>
+
+                    <input type="radio" name="4" value="m" id="4">
+                    <label for="4">Depende</label>
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿cuanto es 1+1?</h5>
+
+                    <input type="radio" name="1" value="m" id="1">
+                    <label for="1">1</label>
+
+                    <input type="radio" name="1" value="b" id="2">
+                    <label for="2">2</label>
+
+                    <input type="radio" name="1" value="m" id="3">
+                    <label for="3">3</label>
+
+                    <input type="radio" name="1" value="m" id="4">
+                    <label for="4">4</label>
+
+                </div>
+            </div>
+
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-default btn-primary">
+                        enviar
+                    </button>
+                </div>
+
+            </div>
+
+    </div>
+    </form>
+
+</div>
+
+
+
+{% endblock content %}

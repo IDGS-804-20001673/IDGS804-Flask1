@@ -1,0 +1,196 @@
+{% extends "layout.html"%}
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <form class="form-horizontal" name="form1" action="/examenPruebaRespuesta" method="post">
+
+            <div class="control-group">
+                <label for="txtNom" class="control-label">Nombre</label>
+                <div class="controls">
+                    <input type="text" name="txtNom" class="input-xlarge" placeholder="Nombre" value="">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="txtAPaterno" class="control-label">Apellido Paterno</label>
+                <div class="controls">
+                    <input type="text" name="txtAPaterno" class="input-xlarge" placeholder="Apellido Paterno" value="">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="txtAMaterno" class="control-label">Apellido Materno</label>
+                <div class="controls">
+                    <input type="text" name="txtAMaterno" class="input-xlarge" placeholder="Apellido Materno" value="">
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h4>Fecha de nacimiento</h4>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="txtDia" class="control-label">Dia</label>
+                <div class="controls">
+                    <input type="text" name="txtDia" class="input-xlarge" placeholder="Dia" value="">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="txtMes" class="control-label">Mes</label>
+                <div class="controls">
+                    <input type="text" name="txtMes" class="input-xlarge" placeholder="Mes" value="">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="txtAnno" class="control-label">Año</label>
+                <div class="controls">
+                    <input type="text" name="txtAnno" class="input-xlarge" placeholder="Año" value="">
+                </div>
+            </div>
+            <div class="control-group">
+
+                <div class="controls">
+                    <label>Sexo</label>
+
+                    <input type="radio" name="sexo" value="m" id="m">Masculino
+                    <br>
+                    <input type="radio" name="sexo" value="f" id="f">Femenino
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Cuanto es 2+2?</h5>
+
+                    <input type="radio" name="txt1" value="m" id="1">2
+                    <br>
+
+                    <input type="radio" name="txt1" value="m" id="2">3
+                    <br>
+
+                    <input type="radio" name="txt1" value="m" id="3">no se
+                    <br>
+
+                    <input type="radio" name="txt1" value="b" id="4">4
+
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Cuanto es 5-5?</h5>
+
+                    <input type="radio" name="txt2" value="m" id="1">1
+                    <br> 
+
+                    <input type="radio" name="txt2" value="m" id="2">3
+                    <br> 
+
+                    <input type="radio" name="txt2" value="m" id="3">10
+                    <br> 
+
+                    <input type="radio" name="txt2" value="b" id="4">0
+               
+
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Cuanto es 1 al cuadrado?</h5>
+
+                    <input type="radio" name="txt3" value="m" id="1">2
+                    <br> 
+
+                    <input type="radio" name="txt3" value="m" id="2">3
+                    <br> 
+
+                    <input type="radio" name="txt3" value="m" id="3">1233
+                    <br> 
+                    <input type="radio" name="txt3" value="b" id="4">1
+                    
+
+
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿Que dia es año nuevo?</h5>
+
+                    <input type="radio" name="txt4" value="m" id="1">El ultimo
+                    <br> 
+
+                    <input type="radio" name="txt4" value="b" id="2">El primero
+                    <br> 
+
+                    <input type="radio" name="txt4" value="m" id="3">A veces
+                    <br> 
+
+                    <input type="radio" name="txt4" value="m" id="4">Depende
+                    <br> 
+
+                </div>
+            </div>
+
+            <div class="control-group">
+
+                <div class="controls">
+                    <h5>¿cuanto es 1+1?</h5>
+
+                    <input type="radio" name="txt5" value="m" id="1">1
+                    <br> 
+
+                    <input type="radio" name="txt5" value="b" id="2">2
+                    <br> 
+
+                    <input type="radio" name="txt5" value="m" id="3">3
+                    <br> 
+
+                    <input type="radio" name="txt5" value="m" id="4">4
+                    <br> 
+
+                </div>
+            </div>
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="reset" class="btn btn-default btn-secondary">
+                        Limpiar
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="control-group">
+                <div class="controls">
+                    <button type="submit" class="btn btn-default btn-primary">
+                        Enviar
+                    </button>
+                </div>
+
+            </div>
+
+    </div>
+    </form>
+
+</div>
+
+
+
+{% endblock content %}
